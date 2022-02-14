@@ -1,0 +1,67 @@
+20-26 jul 
+Refactoring of the code to make it more readable and maintainable.
+
+27-jul
+Started extraction of classes where possible
+
+29jul 
+trying to make an astract class for visualization 
+
+31-jul 
+Started the implementation of the abstract class - vis object holds all properties required to init any specific visualization
+setup doesnt work tho from gallery 
+
+02-aug 
+almost done with visto and vis classes interaction , time to test ! 
+working 
+gotta adjust width
+
+03-aug
+fixed bug of checking class method with typeof in gallery manager 
+adjusted width 
+finish up plot function of square class 
+
+04-aug
+Square extraction completed - run profiler as its hanging the system \
+fixed, issue was with a loop var not increasing 
+
+05-aug 
+Square class completed. 
+Tree class completed. 
+Word-analysis completed.
+auto table loader implemented with naming.
+DRY (fixed piechart).
+
+06-aug
+Sentiment class extraction completed. 
+faced some issues with .bind(this)
+
+
+IsAbehavior interfaces and mixins
+make a decent uml for the project to go along with the code.
+Gotta fix fucking gallery vis.methods running on conditionals. 
+replace dataloaders with new helper function
+fix transitions from climate change vis to the rest 
+
+
+17-aug
+fixed offline version of ml5 models 
+prepared composition of helper functions
+
+20-aug
+implemented composition on helper functions- testing for operability
+
+28-aug
+implemented helper function composition
+
+
+04 - Sept 
+refactored for private properties dataPoint class
+implemented an adapted version of circle segment detection
+--need to fix proper display over circle sections -- done 
+
+
+
+
+add sentiment score label on y-axis in sentiment vis -- done 
+
